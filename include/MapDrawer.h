@@ -23,7 +23,7 @@
 #include"Atlas.h"
 #include"MapPoint.h"
 #include"KeyFrame.h"
-#include<pangolin/pangolin.h>
+//#include<pangolin/pangolin.h>
 
 #include<mutex>
 
@@ -33,17 +33,17 @@ namespace ORB_SLAM3
 class MapDrawer
 {
 public:
-    MapDrawer(Atlas* pAtlas, const string &strSettingPath);
-
-    Atlas* mpAtlas;
-
-    void DrawMapPoints();
-    void DrawKeyFrames(const bool bDrawKF, const bool bDrawGraph, const bool bDrawInertialGraph);
-    void DrawCurrentCamera(pangolin::OpenGlMatrix &Twc);
-    void SetCurrentCameraPose(const cv::Mat &Tcw);
-    void SetReferenceKeyFrame(KeyFrame *pKF);
-    void GetCurrentOpenGLCameraMatrix(pangolin::OpenGlMatrix &M, pangolin::OpenGlMatrix &MOw);
-    void GetCurrentOpenGLCameraMatrix(pangolin::OpenGlMatrix &M, pangolin::OpenGlMatrix &MOw, pangolin::OpenGlMatrix &MTwwp);
+//    MapDrawer(Atlas* pAtlas, const string &strSettingPath);
+//
+//    Atlas* mpAtlas;
+//
+//    void DrawMapPoints();
+//    void DrawKeyFrames(const bool bDrawKF, const bool bDrawGraph, const bool bDrawInertialGraph);
+//    void DrawCurrentCamera(pangolin::OpenGlMatrix &Twc);
+//    void SetCurrentCameraPose(const cv::Mat &Tcw);
+//    void SetReferenceKeyFrame(KeyFrame *pKF);
+//    void GetCurrentOpenGLCameraMatrix(pangolin::OpenGlMatrix &M, pangolin::OpenGlMatrix &MOw);
+//    void GetCurrentOpenGLCameraMatrix(pangolin::OpenGlMatrix &M, pangolin::OpenGlMatrix &MOw, pangolin::OpenGlMatrix &MTwwp);
 
 private:
 
