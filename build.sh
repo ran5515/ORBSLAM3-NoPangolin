@@ -27,5 +27,5 @@ echo "Configuring and building ORB_SLAM3 ..."
 
 mkdir build
 cd build
-cmake .. -DCMAKE_BUILD_TYPE=Release
+cmake .. -DCMAKE_BUILD_TYPE=Release -DOpenCV_DIR="/installation/OpenCV-3.4.4/"
 make -j
