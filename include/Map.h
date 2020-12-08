@@ -187,7 +187,7 @@ protected:
 
 
     // View of the map in aerial sight (for the AtlasViewer)
-    GLubyte* mThumbnail;
+    //GLubyte* mThumbnail;
 
     bool mIsInUse;
     bool mHasTumbnail;

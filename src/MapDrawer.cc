@@ -27,8 +27,8 @@ namespace ORB_SLAM3
 {
 
 
-//MapDrawer::MapDrawer(Atlas* pAtlas, const string &strSettingPath):mpAtlas(pAtlas)
-//{
+MapDrawer::MapDrawer(Atlas* pAtlas, const string &strSettingPath):mpAtlas(pAtlas)
+{
 //    cv::FileStorage fSettings(strSettingPath, cv::FileStorage::READ);
 //
 //    bool is_correct = ParseViewerParamFile(fSettings);
@@ -45,7 +45,7 @@ namespace ORB_SLAM3
 //
 //        }
 //    }
-//}
+}
 //
 //bool MapDrawer::ParseViewerParamFile(cv::FileStorage &fSettings)
 //{

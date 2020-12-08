@@ -1,0 +1,57 @@
+Configuring and building Thirdparty/DBoW2 ...
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/xukan/Desktop/workspace/ORBSLAM3-NoPangolin/Thirdparty/DBoW2/build
+[100%] Built target DBoW2
+Configuring and building Thirdparty/g2o ...
+-- BUILD TYPE:Release
+-- Compiling on Unix
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/xukan/Desktop/workspace/ORBSLAM3-NoPangolin/Thirdparty/g2o/build
+[100%] Built target g2o
+Uncompress vocabulary ...
+Configuring and building ORB_SLAM3 ...
+-- Using flag -std=c++11.
+-- BUILD TYPE:Release
+-- Compiling on Unix
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/xukan/Desktop/workspace/ORBSLAM3-NoPangolin/build
+[ 37%] Built target g2o
+[ 38%] Building CXX object CMakeFiles/ORB_SLAM3.dir/src/System.cc.o
+[ 39%] Building CXX object CMakeFiles/ORB_SLAM3.dir/src/Tracking.cc.o
+[ 40%] Building CXX object CMakeFiles/ORB_SLAM3.dir/src/LocalMapping.cc.o
+[ 42%] Building CXX object CMakeFiles/ORB_SLAM3.dir/src/LoopClosing.cc.o
+[ 43%] Building CXX object CMakeFiles/ORB_SLAM3.dir/src/ORBmatcher.cc.o
+[ 44%] Building CXX object CMakeFiles/ORB_SLAM3.dir/src/FrameDrawer.cc.o
+[ 45%] Building CXX object CMakeFiles/ORB_SLAM3.dir/src/MapPoint.cc.o
+[ 46%] Building CXX object CMakeFiles/ORB_SLAM3.dir/src/KeyFrame.cc.o
+[ 48%] Building CXX object CMakeFiles/ORB_SLAM3.dir/src/MapDrawer.cc.o
+[ 49%] Building CXX object CMakeFiles/ORB_SLAM3.dir/src/Optimizer.cc.o
+[ 50%] Building CXX object CMakeFiles/ORB_SLAM3.dir/src/Map.cc.o
+[ 53%] Building CXX object CMakeFiles/ORB_SLAM3.dir/src/PnPsolver.cc.o
+[ 53%] Building CXX object CMakeFiles/ORB_SLAM3.dir/src/Sim3Solver.cc.o
+[ 54%] Building CXX object CMakeFiles/ORB_SLAM3.dir/src/Frame.cc.o
+[ 55%] Building CXX object CMakeFiles/ORB_SLAM3.dir/src/Atlas.cc.o
+[ 56%] Building CXX object CMakeFiles/ORB_SLAM3.dir/src/Initializer.cc.o
+[ 57%] Building CXX object CMakeFiles/ORB_SLAM3.dir/src/Viewer.cc.o
+[ 59%] Building CXX object CMakeFiles/ORB_SLAM3.dir/src/MLPnPsolver.cpp.o
+[ 60%] Building CXX object CMakeFiles/ORB_SLAM3.dir/src/KeyFrameDatabase.cc.o
+[ 61%] Building CXX object CMakeFiles/ORB_SLAM3.dir/src/G2oTypes.cc.o
+CMakeFiles/ORB_SLAM3.dir/build.make:470: recipe for target 'CMakeFiles/ORB_SLAM3.dir/src/Sim3Solver.cc.o' failed
+CMakeFiles/ORB_SLAM3.dir/build.make:398: recipe for target 'CMakeFiles/ORB_SLAM3.dir/src/PnPsolver.cc.o' failed
+CMakeFiles/ORB_SLAM3.dir/build.make:350: recipe for target 'CMakeFiles/ORB_SLAM3.dir/src/MapDrawer.cc.o' failed
+CMakeFiles/ORB_SLAM3.dir/build.make:182: recipe for target 'CMakeFiles/ORB_SLAM3.dir/src/ORBmatcher.cc.o' failed
+CMakeFiles/ORB_SLAM3.dir/build.make:326: recipe for target 'CMakeFiles/ORB_SLAM3.dir/src/Map.cc.o' failed
+CMakeFiles/ORB_SLAM3.dir/build.make:446: recipe for target 'CMakeFiles/ORB_SLAM3.dir/src/KeyFrameDatabase.cc.o' failed
+CMakeFiles/ORB_SLAM3.dir/build.make:254: recipe for target 'CMakeFiles/ORB_SLAM3.dir/src/MapPoint.cc.o' failed
+CMakeFiles/ORB_SLAM3.dir/build.make:518: recipe for target 'CMakeFiles/ORB_SLAM3.dir/src/Viewer.cc.o' failed
+CMakeFiles/ORB_SLAM3.dir/build.make:278: recipe for target 'CMakeFiles/ORB_SLAM3.dir/src/KeyFrame.cc.o' failed
+CMakeFiles/ORB_SLAM3.dir/build.make:302: recipe for target 'CMakeFiles/ORB_SLAM3.dir/src/Atlas.cc.o' failed
+CMakeFiles/ORB_SLAM3.dir/build.make:206: recipe for target 'CMakeFiles/ORB_SLAM3.dir/src/FrameDrawer.cc.o' failed
+CMakeFiles/ORB_SLAM3.dir/build.make:62: recipe for target 'CMakeFiles/ORB_SLAM3.dir/src/System.cc.o' failed
+CMakeFiles/ORB_SLAM3.dir/build.make:494: recipe for target 'CMakeFiles/ORB_SLAM3.dir/src/Initializer.cc.o' failed
+CMakeFiles/ORB_SLAM3.dir/build.make:110: recipe for target 'CMakeFiles/ORB_SLAM3.dir/src/LocalMapping.cc.o' failed
+CMakeFiles/ORB_SLAM3.dir/build.make:662: recipe for target 'CMakeFiles/ORB_SLAM3.dir/src/MLPnPsolver.cpp.o' failed
+CMakeFiles/ORB_SLAM3.dir/build.make:134: recipe for target 'CMakeFiles/ORB_SLAM3.dir/src/LoopClosing.cc.o' failed

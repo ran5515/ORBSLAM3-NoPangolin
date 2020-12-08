@@ -33,9 +33,9 @@ namespace ORB_SLAM3
 class MapDrawer
 {
 public:
-//    MapDrawer(Atlas* pAtlas, const string &strSettingPath);
+    MapDrawer(Atlas* pAtlas, const string &strSettingPath);
 //
-//    Atlas* mpAtlas;
+    Atlas* mpAtlas;
 //
 //    void DrawMapPoints();
 //    void DrawKeyFrames(const bool bDrawKF, const bool bDrawGraph, const bool bDrawInertialGraph);
